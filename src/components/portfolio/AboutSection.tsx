@@ -1,5 +1,5 @@
 import { Code2, Lightbulb, Rocket, Users } from 'lucide-react';
-import developerPortrait from '@/assets/developer-portrait.jpg';
+import developerPortrait from '@/assets/c.jpg';
 
 const highlights = [
   { icon: Code2, title: 'Clean Code', description: 'Writing maintainable, scalable code' },
