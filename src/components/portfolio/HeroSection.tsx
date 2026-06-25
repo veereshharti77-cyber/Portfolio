@@ -56,10 +56,14 @@ const HeroSection = () => {
           </div>
 
           {/* Name */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 animate-slide-up opacity-0" style={{ animationDelay: '0.2s' }}>
-            <span className="text-foreground">Veerabhadrappa </span>
-            <span className="text-gradient">Harti</span>
-          </h1>
+          <h1 className="leading-tight ...">
+  <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-foreground">
+    Veerabhadrappa
+  </span>
+  <span className="block text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-gradient">
+    Harti
+  </span>
+</h1>
 
           {/* Title with cycling effect */}
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-6 animate-slide-up opacity-0 h-12 md:h-14" style={{ animationDelay: '0.3s' }}>
