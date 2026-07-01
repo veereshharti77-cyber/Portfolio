@@ -1,5 +1,5 @@
 import { Code2, Lightbulb, Rocket, Users } from 'lucide-react';
-import developerPortrait from '@/assets/c.jpg';
+import developerPortrait from '@/assets/c.png';
 
 const highlights = [
   { icon: Code2, title: 'Clean Code', description: 'Writing maintainable, scalable code' },
@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="relative">
               {/* Main image container */}
               <div className="aspect-square max-w-md mx-auto rounded-3xl overflow-hidden bg-gradient-primary p-1 glow-primary">
-                <div className="w-full h-full rounded-3xl overflow-hidden">
+                <div className="w-full h-full rounded-3xl ">
                   <img 
                     src={developerPortrait} 
                     alt="Developer portrait"
