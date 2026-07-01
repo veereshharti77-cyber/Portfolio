@@ -1,16 +1,16 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import projectEcommerce from '@/assets/project-ecommerce.jpg';
+import genzilla from '@/assets/logo.png';
 import projectTaskapp from '@/assets/project-taskapp.jpg';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.',
-    image: projectEcommerce,
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    github: '#',
-    live: '#',
+    title: 'Client Website (Genzilla)',
+    description: 'Designed and developed a responsive marketing website for GENZILLA, a brand agency positioned around the tagline "We Make Brands Go Viral".',
+    image: genzilla,
+    tags: ['React','Tailwind CSS', 'UI/UX Design'],
+    github: 'https://github.com/veereshharti77-cyber/Genzilla.git',
+    live: 'https://genzilla.dpdns.org',
     featured: true,
   },
   {
@@ -72,7 +72,8 @@ const ProjectsSection = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                    
                   />
                 ) : (
                   <span className="text-8xl group-hover:scale-110 transition-transform duration-500">
